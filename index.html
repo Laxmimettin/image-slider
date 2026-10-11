@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Carousel | Explore Nature</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header class="header">
+        <h1>Explore Nature</h1>
+        <p>Discover the beauty of our world</p>
+    </header>
+
+    <main class="carousel-container" id="carousel">
+        <div class="slides">
+
+            <div class="slide active">
+                <img src="https://images.unsplash.com/photo-1470770841072-f978cf4d019e?auto=format&fit=crop&w=1400&q=85"
+                    alt="Beautiful mountain lake">
+                <div class="caption">
+                    <h2>Mountain Escape</h2>
+                    <p>Find peace in the mountains.</p>
+                </div>
+            </div>
+
+            <div class="slide">
+                <img src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1400&q=85"
+                    alt="Green landscape">
+                <div class="caption">
+                    <h2>Green Paradise</h2>
+                    <p>Nature makes everything beautiful.</p>
+                </div>
+            </div>
+
+            <div class="slide">
+                <img src="https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=1400&q=85"
+                    alt="Lake surrounded by mountains">
+                <div class="caption">
+                    <h2>Peaceful Waters</h2>
+                    <p>Let the calm waters refresh your mind.</p>
+                </div>
+            </div>
+
+            <div class="slide">
+                <img src="https://images.unsplash.com/photo-1441974231531-c6227db76b6e?auto=format&fit=crop&w=1400&q=85"
+                    alt="Sunlight through a forest">
+                <div class="caption">
+                    <h2>Into the Forest</h2>
+                    <p>Every path leads to an adventure.</p>
+                </div>
+            </div>
+
+            <div class="slide">
+                <img src="https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=1400&q=85"
+                    alt="Snow-covered mountain peaks">
+                <div class="caption">
+                    <h2>Majestic Peaks</h2>
+                    <p>Dream big and reach new heights.</p>
+                </div>
+            </div>
+
+        </div>
+
+        <button class="nav-btn prev" id="prevBtn" aria-label="Previous slide">&#10094;</button>
+        <button class="nav-btn next" id="nextBtn" aria-label="Next slide">&#10095;</button>
+
+        <div class="indicators" id="indicators" aria-label="Choose a slide"></div>
+
+        <div class="slide-count" id="slideCount">01 / 05</div>
+    </main>
+
+    <footer>
+        <p>Image Carousel Project | HTML • CSS • JavaScript</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
